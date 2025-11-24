@@ -1,0 +1,16 @@
+SemEval 2026 Task 11 Training Summary
+==================================================
+
+Model: microsoft/deberta-v3-large
+Best Validation Accuracy: 0.9653
+Total Epochs: 7
+Training Samples: 2948
+Validation Samples: 144
+
+Configuration:
+  - SCL: True
+  - Augmentation: True (x3)
+  - Synthetic Data: True (500)
+  - LoRA rank: 16
+  - Learning rate: 0.0003
+  - Batch size: 16
