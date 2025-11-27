@@ -1,0 +1,19 @@
+SemEval 2026 Task 11 Training Summary
+==================================================
+
+Model: microsoft/deberta-v3-large
+Best Validation Accuracy: 0.9861
+Total Epochs: 12
+Training Samples: 2816
+Validation Samples: 144
+
+LLM Data Generation:
+  Provider: siliconflow
+  Model: Qwen/Qwen3-8B
+  Generated Samples: 2000
+
+Configuration:
+  - SCL: True
+  - LoRA rank: 16
+  - Learning rate: 0.0002
+  - Batch size: 4
